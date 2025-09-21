@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Mastery Institute - Master Trading with Confidence</title>
+    <meta name="description" content="Transform from complete beginner to profitable trader in 90 days. Expert mentorship, NISM certification, and career support. Book your free consultation today!" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fstockmark3880back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="font-inter bg-background">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-border-light z-50">
+        <div class="container-max">
+            <div class="flex items-center justify-between py-4">
+                <div class="flex items-center space-x-2">
+                    
+                    <img src="../assets/StockRise%20Logo.jpg" alt="Stock Rise Logo" class="h-10 w-auto" onerror="this.onerror=null; this.src='../assets/StockRise%20Logo.jpg';">
+                    <span class="font-poppins font-bold text-xl text-text-primary ml-2">Stock Rise</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-text-secondary hover:text-primary transition-colors">Services</a>
+                    <a href="#testimonials" class="text-text-secondary hover:text-primary transition-colors">Success Stories</a>
+                    <a href="#about" class="text-text-secondary hover:text-primary transition-colors">About</a>
+                    <button class="btn-primary">Book Free Consultation</button>
+                </div>
+                <button class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-50 via-secondary-50 to-accent-50"></div>
+        <div class="absolute inset-0 opacity-10">
+            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2940&auto=format&fit=crop" alt="Stock market charts" class="w-full h-full object-cover" onerror="this.src='https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=2940'; this.onerror=null;" />
+        </div>
+        
+        <div class="container-max relative z-10 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-text-primary mb-6 leading-tight">
+                    Master the Stock Market with 
+                    <span class="text-gradient">Confidence</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-text-secondary mb-8 leading-relaxed">
+                    Transform from Complete Beginner to Profitable Trader in 90 Days with Expert Mentorship
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <button class="btn-primary text-lg px-8 py-4 shadow-primary">
+                        📞 Book Free Consultation
+                    </button>
+                    <button class="btn-secondary text-lg px-8 py-4" onclick="document.getElementById('testimonials').scrollIntoView()">
+                        🏆 View Success Stories
+                    </button>
+                </div>
+
+                <!-- Trust Bar -->
+                <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-card">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                        <div class="space-y-2">
+                            <div class="text-3xl font-poppins font-bold text-primary" id="traders-count">5000+</div>
+                            <div class="text-text-secondary">Successful Traders Trained</div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-3xl font-poppins font-bold text-success" id="pass-rate">94%</div>
+                            <div class="text-text-secondary">NISM Exam Pass Rate</div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-3xl font-poppins font-bold text-warning" id="growth-rate">127%</div>
+                            <div class="text-text-secondary">Average Portfolio Growth</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Success Notifications -->
+        <div class="fixed top-24 right-4 z-40 space-y-2" id="success-notifications">
+            <div class="bg-success-50 border border-success-200 rounded-lg p-3 shadow-card animate-pulse">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-success-500 rounded-full flex items-center justify-center">
+                        <span class="text-white text-xs">✓</span>
+                    </div>
+                    <div class="text-sm">
+                        <div class="font-semibold text-success-600">Rahul from Mumbai</div>
+                        <div class="text-success-500">Made ₹45,000 profit this month</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Agitation Section -->
+    <section class="section-padding bg-surface-50">
+        <div class="container-max">
+            <div class="text-center mb-12">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Are You Losing Money in the Stock Market?
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    95% of retail traders lose money because they lack proper training and guidance
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Interactive Fear Calculator -->
+                <div class="bg-white rounded-2xl p-8 shadow-card mb-12">
+                    <h3 class="font-poppins font-bold text-2xl text-center mb-6">Calculate Your Potential Losses</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-text-secondary mb-2">Your Investment Amount (₹)</label>
+                            <input type="range" id="investment-slider" min="10000" max="1000000" value="100000" class="w-full h-2 bg-border rounded-lg appearance-none cursor-pointer" />
+                            <div class="flex justify-between text-sm text-text-muted mt-1">
+                                <span>₹10,000</span>
+                                <span id="investment-display" class="font-semibold text-primary">₹1,00,000</span>
+                                <span>₹10,00,000</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-error-50 border border-error-200 rounded-lg p-6 text-center">
+                            <div class="text-error-600 font-poppins font-bold text-3xl mb-2" id="potential-loss">
+                                ₹95,000
+                            </div>
+                            <div class="text-error-500">Potential Loss Without Proper Training</div>
+                            <div class="text-sm text-error-400 mt-2">Based on 95% retail trader failure rate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem Points -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-error-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-error-500 text-xl">😰</span>
+                            </div>
+                            <div>
+                                <h4 class="font-poppins font-semibold text-lg mb-2">Fear of Losing Hard-Earned Money</h4>
+                                <p class="text-text-secondary">Without proper knowledge, every investment feels like gambling</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-error-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-error-500 text-xl">🤯</span>
+                            </div>
+                            <div>
+                                <h4 class="font-poppins font-semibold text-lg mb-2">Information Overwhelm</h4>
+                                <p class="text-text-secondary">Too many conflicting strategies and "expert" opinions online</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-error-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-error-500 text-xl">📉</span>
+                            </div>
+                            <div>
+                                <h4 class="font-poppins font-semibold text-lg mb-2">Lack of Practical Guidance</h4>
+                                <p class="text-text-secondary">Theory is everywhere, but real-world application is missing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-error-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-error-500 text-xl">🚫</span>
+                            </div>
+                            <div>
+                                <h4 class="font-poppins font-semibold text-lg mb-2">No Career Path Clarity</h4>
+                                <p class="text-text-secondary">Uncertain about finance career opportunities and requirements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Overview Section -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Our Proven 3-Pillar Success System
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    The only comprehensive approach that guarantees your transformation from beginner to profitable trader
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-250">
+                        <span class="text-white text-3xl">🎓</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-4">Expert Training</h3>
+                    <p class="text-text-secondary mb-6">Comprehensive curriculum designed by market veterans with 15+ years experience</p>
+                    <button class="text-primary font-semibold hover:underline">View Curriculum →</button>
+                </div>
+
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-250">
+                        <span class="text-white text-3xl">👨‍🏫</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-4">Personal Mentorship</h3>
+                    <p class="text-text-secondary mb-6">One-on-one guidance tailored to your learning pace and financial goals</p>
+                    <button class="text-primary font-semibold hover:underline">Meet Mentors →</button>
+                </div>
+
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-250">
+                        <span class="text-white text-3xl">🚀</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-4">Career Support</h3>
+                    <p class="text-text-secondary mb-6">Job placement assistance and networking opportunities in top financial firms</p>
+                    <button class="text-primary font-semibold hover:underline">Success Stories →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Rahul Singh Section -->
+    <section class="section-padding bg-gray-50">
+        <div class="container-max">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3">
+                    <div class="rounded-2xl overflow-hidden shadow-xl">
+                        <img src="../assets/rahul.jpeg" alt="Rahul Singh - NISM Certified Professional" class="w-full h-auto" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                        About Rahul Singh
+                    </h2>
+                    <p class="text-lg text-text-secondary mb-6">
+                        NISM Certified professional with over 7+ years of trading experience in equity, commodities, and hedging strategies. As a full-time trader, mentor, and trainer in the Indian stock market, I've had the privilege of guiding nearly 1,000 students over the past 4 years towards financial success.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">NISM Certified</h4>
+                                <p class="text-text-secondary">Certified by NISM (National Institute of Securities Markets)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">7+ Years Experience</h4>
+                                <p class="text-text-secondary">Trading in Indian equity and commodity markets</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">1,000+ Students Trained</h4>
+                                <p class="text-text-secondary">Successful mentorship and training programs</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Expertise in</h4>
+                                <p class="text-text-secondary">Technical Analysis, Options Trading, and Portfolio Management</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="btn-primary px-8 py-3">
+                            Contact Rahul
+                        </a>
+                        <a href="#testimonials" class="btn-outline px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white">
+                            Student Testimonials
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section -->
+    <section id="services" class="section-padding bg-surface-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Complete Trading Education Ecosystem
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Six comprehensive services designed to take you from zero to trading hero
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Share Market Training -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary-200 transition-colors">
+                        <span class="text-primary text-2xl">📈</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">Share Market Training</h3>
+                    <p class="text-text-secondary mb-4">Master technical analysis, fundamental analysis, and risk management strategies</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"Increased my portfolio by 85% in 6 months" - Priya S.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: 3 months</span>
+                        <span class="font-poppins font-bold text-primary">₹25,000</span>
+                    </div>
+                    <button class="w-full btn-primary">Enroll Now</button>
+                </div>
+
+                <!-- 1-on-1 Mentorship -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-secondary-200 transition-colors">
+                        <span class="text-secondary-600 text-2xl">👨‍💼</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">1-on-1 Mentorship</h3>
+                    <p class="text-text-secondary mb-4">Personalized guidance from experienced traders with proven track records</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"My mentor helped me avoid ₹2L loss" - Amit K.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: 6 months</span>
+                        <span class="font-poppins font-bold text-primary">₹50,000</span>
+                    </div>
+                    <button class="w-full btn-primary">Book Session</button>
+                </div>
+
+                <!-- Portfolio Management -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-accent-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-accent-200 transition-colors">
+                        <span class="text-accent-600 text-2xl">💼</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">Portfolio Management</h3>
+                    <p class="text-text-secondary mb-4">Professional portfolio optimization and wealth management services</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"Consistent 15% annual returns" - Rajesh M.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: Ongoing</span>
+                        <span class="font-poppins font-bold text-primary">₹15,000/month</span>
+                    </div>
+                    <button class="w-full btn-primary">Get Started</button>
+                </div>
+
+                <!-- Mutual Fund Advisory -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-warning-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-warning-200 transition-colors">
+                        <span class="text-warning-600 text-2xl">🏦</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">Mutual Fund Advisory</h3>
+                    <p class="text-text-secondary mb-4">Strategic mutual fund selection and SIP planning for long-term wealth</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"Built ₹50L corpus in 5 years" - Sneha T.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: Ongoing</span>
+                        <span class="font-poppins font-bold text-primary">₹5,000/month</span>
+                    </div>
+                    <button class="w-full btn-primary">Start Planning</button>
+                </div>
+
+                <!-- NISM Exam Prep -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-success-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-success-200 transition-colors">
+                        <span class="text-success-600 text-2xl">📜</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">NISM Exam Preparation</h3>
+                    <p class="text-text-secondary mb-4">Comprehensive preparation for NISM certification with 94% pass rate</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"Cleared NISM in first attempt" - Vikash R.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: 2 months</span>
+                        <span class="font-poppins font-bold text-primary">₹12,000</span>
+                    </div>
+                    <button class="w-full btn-primary">Register Now</button>
+                </div>
+
+                <!-- Career Guidance -->
+                <div class="card group hover:shadow-primary cursor-pointer">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-colors">
+                        <span class="text-purple-600 text-2xl">🎯</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-xl mb-3">Career Guidance</h3>
+                    <p class="text-text-secondary mb-4">Job placement assistance and career transition support in finance sector</p>
+                    <div class="bg-success-50 rounded-lg p-3 mb-4">
+                        <div class="text-success-600 text-sm font-semibold">"Got placed at HDFC Securities" - Manish P.</div>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-text-muted text-sm">Duration: 3 months</span>
+                        <span class="font-poppins font-bold text-primary">₹20,000</span>
+                    </div>
+                    <button class="w-full btn-primary">Explore Careers</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Mentorship Highlight -->
+    <section class="section-padding bg-gradient-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <img src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=2940" alt="Trading mentorship" class="w-full h-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg'; this.onerror=null;" />
+        </div>
+        
+        <div class="container-max relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <div class="inline-block bg-warning-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-pulse">
+                    🔥 LIMITED TIME OFFER
+                </div>
+                
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl mb-6">
+                    Get FREE 1-Hour Consultation with Market Expert
+                </h2>
+                
+                <p class="text-xl mb-8 opacity-90">
+                    Only first 50 visitors today get exclusive access to our senior trading mentor
+                </p>
+
+                <!-- Countdown Timer -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 inline-block">
+                    <div class="text-sm mb-2 opacity-80">Offer expires in:</div>
+                    <div class="flex space-x-4 text-center">
+                        <div>
+                            <div class="text-3xl font-poppins font-bold" id="hours">23</div>
+                            <div class="text-xs opacity-80">Hours</div>
+                        </div>
+                        <div class="text-3xl">:</div>
+                        <div>
+                            <div class="text-3xl font-poppins font-bold" id="minutes">45</div>
+                            <div class="text-xs opacity-80">Minutes</div>
+                        </div>
+                        <div class="text-3xl">:</div>
+                        <div>
+                            <div class="text-3xl font-poppins font-bold" id="seconds">32</div>
+                            <div class="text-xs opacity-80">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="text-sm opacity-80 mb-2">Remaining slots today:</div>
+                    <div class="bg-white/20 rounded-full h-4 mb-2">
+                        <div class="bg-warning-400 h-4 rounded-full" style="width: 32%"></div>
+                    </div>
+                    <div class="text-sm opacity-80">16 out of 50 slots remaining</div>
+                </div>
+
+                <button class="bg-white text-primary font-poppins font-bold text-xl px-12 py-4 rounded-lg hover:scale-105 transition-transform shadow-lg">
+                    🎯 Claim Your FREE Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Management Section -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                        Grow Your Wealth with Professional Portfolio Management
+                    </h2>
+                    <p class="text-xl text-text-secondary mb-8">
+                        Our expert portfolio managers have consistently delivered superior returns while managing risk effectively
+                    </p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center">
+                                <span class="text-success-500 text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Diversified Investment Strategy</h4>
+                                <p class="text-text-secondary">Balanced portfolio across sectors and asset classes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center">
+                                <span class="text-success-500 text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Risk Management</h4>
+                                <p class="text-text-secondary">Advanced risk assessment and mitigation strategies</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center">
+                                <span class="text-success-500 text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Regular Monitoring</h4>
+                                <p class="text-text-secondary">Continuous portfolio optimization and rebalancing</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary text-lg px-8 py-4">Start Portfolio Management</button>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-surface-50 rounded-2xl p-8">
+                        <h3 class="font-poppins font-bold text-2xl mb-6 text-center">Portfolio Performance</h3>
+                        
+                        <!-- Mock Chart -->
+                        <div class="relative h-64 bg-white rounded-lg p-4 shadow-card">
+                            <svg class="w-full h-full" viewBox="0 0 400 200">
+                                <defs>
+                                    <linearGradient id="portfolioGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.3"/>
+                                        <stop offset="100%" style="stop-color:#10b981;stop-opacity:0"/>
+                                    </linearGradient>
+                                </defs>
+                                <polyline fill="none" stroke="#10b981" stroke-width="3" points="0,150 50,140 100,120 150,100 200,80 250,70 300,60 350,50 400,40"/>
+                                <polygon fill="url(#portfolioGradient)" points="0,200 0,150 50,140 100,120 150,100 200,80 250,70 300,60 350,50 400,40 400,200"/>
+                            </svg>
+                            <div class="absolute top-4 right-4 bg-success-100 text-success-600 px-3 py-1 rounded-full text-sm font-semibold">
+                                +127% Growth
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-4 mt-6 text-center">
+                            <div>
+                                <div class="text-2xl font-poppins font-bold text-success-500">₹12.7L</div>
+                                <div class="text-sm text-text-muted">Current Value</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-poppins font-bold text-primary">₹5.6L</div>
+                                <div class="text-sm text-text-muted">Initial Investment</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-poppins font-bold text-warning-500">18.5%</div>
+                                <div class="text-sm text-text-muted">Annual Return</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NISM Exam Preparation Section -->
+    <section class="section-padding bg-surface-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    NISM Certification Made Easy
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Structured learning approach with 94% pass rate guarantee
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <!-- Practice Quiz Widget -->
+                    <div class="bg-white rounded-2xl p-8 shadow-card">
+                        <h3 class="font-poppins font-bold text-2xl mb-6">Test Your Knowledge</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold mb-3">What is the primary function of SEBI?</h4>
+                                <div class="space-y-2">
+                                    <label class="flex items-center space-x-3 cursor-pointer">
+                                        <input type="radio" name="quiz1" class="text-primary" />
+                                        <span>Banking regulation</span>
+                                    </label>
+                                    <label class="flex items-center space-x-3 cursor-pointer">
+                                        <input type="radio" name="quiz1" class="text-primary" />
+                                        <span>Securities market regulation</span>
+                                    </label>
+                                    <label class="flex items-center space-x-3 cursor-pointer">
+                                        <input type="radio" name="quiz1" class="text-primary" />
+                                        <span>Insurance regulation</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <button class="btn-primary w-full">Submit Answer</button>
+                            
+                            <div class="bg-success-50 border border-success-200 rounded-lg p-4 text-center">
+                                <div class="text-success-600 font-semibold">Your Current Score: 85%</div>
+                                <div class="text-success-500 text-sm mt-1">Great! You're ready for NISM preparation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-poppins font-bold text-3xl mb-6">Why Choose Our NISM Program?</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-primary text-xl">📚</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Comprehensive Study Material</h4>
+                                    <p class="text-text-secondary">Updated curriculum covering all NISM modules with practice tests</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-primary text-xl">🎯</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">94% Pass Rate</h4>
+                                    <p class="text-text-secondary">Industry-leading success rate with money-back guarantee</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-primary text-xl">👨‍🏫</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Expert Faculty</h4>
+                                    <p class="text-text-secondary">Learn from NISM-certified professionals with industry experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-primary-50 rounded-2xl p-6">
+                        <h4 class="font-poppins font-bold text-xl mb-4">NISM Modules We Cover:</h4>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-primary">✓</span>
+                                <span class="text-sm">Series V-A</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="text-primary">✓</span>
+                                <span class="text-sm">Series VIII</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="text-primary">✓</span>
+                                <span class="text-sm">Series XV</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="text-primary">✓</span>
+                                <span class="text-sm">Series XVII</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary text-lg px-8 py-4">Start NISM Preparation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Launch Section -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Launch Your Finance Career
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    From training to placement - we support your complete career transformation
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <!-- Salary Calculator -->
+                    <div class="bg-surface-50 rounded-2xl p-8">
+                        <h3 class="font-poppins font-bold text-2xl mb-6">Finance Career Salary Calculator</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-text-secondary mb-2">Experience Level</label>
+                                <select class="input-field" id="experience-select">
+                                    <option value="fresher">Fresher (0-1 years)</option>
+                                    <option value="junior">Junior (1-3 years)</option>
+                                    <option value="mid">Mid-level (3-5 years)</option>
+                                    <option value="senior">Senior (5+ years)</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-text-secondary mb-2">Location</label>
+                                <select class="input-field" id="location-select">
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="delhi">Delhi NCR</option>
+                                    <option value="bangalore">Bangalore</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="hyderabad">Hyderabad</option>
+                                </select>
+                            </div>
+                            
+                            <div class="bg-primary-50 border border-primary-200 rounded-lg p-6 text-center">
+                                <div class="text-primary font-poppins font-bold text-3xl mb-2" id="salary-display">
+                                    ₹4.5 - 6.5 LPA
+                                </div>
+                                <div class="text-primary-600">Expected Salary Range</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-poppins font-bold text-3xl mb-6">Career Opportunities</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-success-500 text-xl">🏢</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Investment Banking</h4>
+                                    <p class="text-text-secondary">Join top investment banks as analyst or associate</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-success-500 text-xl">📊</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Equity Research</h4>
+                                    <p class="text-text-secondary">Become a research analyst at leading brokerages</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-success-500 text-xl">💼</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Portfolio Management</h4>
+                                    <p class="text-text-secondary">Manage portfolios for HNI clients and institutions</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <span class="text-success-500 text-xl">🚀</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-2">Entrepreneurship</h4>
+                                    <p class="text-text-secondary">Start your own financial advisory or trading firm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-primary text-white rounded-2xl p-6">
+                        <h4 class="font-poppins font-bold text-xl mb-4">Placement Support Includes:</h4>
+                        <div class="space-y-2">
+                            <div class="flex items-center space-x-2">
+                                <span>✓</span>
+                                <span>Resume building and optimization</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span>✓</span>
+                                <span>Interview preparation and mock sessions</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span>✓</span>
+                                <span>Direct referrals to partner companies</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span>✓</span>
+                                <span>Networking events with industry professionals</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary text-lg px-8 py-4">Explore Career Paths</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Success Testimonials -->
+    <section id="testimonials" class="section-padding bg-surface-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Success Stories from Our Students
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Real results from real people who transformed their financial future
+                </p>
+            </div>
+
+            <!-- Interactive Success Map -->
+            <div class="bg-white rounded-2xl p-8 shadow-card mb-16">
+                <h3 class="font-poppins font-bold text-2xl text-center mb-8">Our Students Across India</h3>
+                <div class="relative h-96 bg-surface-50 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2940&auto=format&fit=crop" alt="India map" class="w-full h-full object-cover opacity-20" onerror="this.src='https://images.pexels.com/photos/1098515/pexels-photo-1098515.jpeg?auto=compress&cs=tinysrgb&w=2940'; this.onerror=null;" />
+                    
+                    <!-- Success Markers -->
+                    <div class="absolute top-1/4 left-1/3 w-4 h-4 bg-success-500 rounded-full animate-pulse cursor-pointer" title="Mumbai: 1200+ successful traders"></div>
+                    <div class="absolute top-1/3 left-1/2 w-4 h-4 bg-success-500 rounded-full animate-pulse cursor-pointer" title="Delhi: 800+ successful traders"></div>
+                    <div class="absolute bottom-1/3 right-1/3 w-4 h-4 bg-success-500 rounded-full animate-pulse cursor-pointer" title="Bangalore: 650+ successful traders"></div>
+                    <div class="absolute top-1/2 left-2/3 w-4 h-4 bg-success-500 rounded-full animate-pulse cursor-pointer" title="Hyderabad: 400+ successful traders"></div>
+                    <div class="absolute bottom-1/4 left-1/4 w-4 h-4 bg-success-500 rounded-full animate-pulse cursor-pointer" title="Pune: 350+ successful traders"></div>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-6 text-center">
+                    <div>
+                        <div class="font-poppins font-bold text-2xl text-success-500">1200+</div>
+                        <div class="text-sm text-text-muted">Mumbai</div>
+                    </div>
+                    <div>
+                        <div class="font-poppins font-bold text-2xl text-success-500">800+</div>
+                        <div class="text-sm text-text-muted">Delhi NCR</div>
+                    </div>
+                    <div>
+                        <div class="font-poppins font-bold text-2xl text-success-500">650+</div>
+                        <div class="text-sm text-text-muted">Bangalore</div>
+                    </div>
+                    <div>
+                        <div class="font-poppins font-bold text-2xl text-success-500">400+</div>
+                        <div class="text-sm text-text-muted">Hyderabad</div>
+                    </div>
+                    <div>
+                        <div class="font-poppins font-bold text-2xl text-success-500">350+</div>
+                        <div class="text-sm text-text-muted">Pune</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Testimonials -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Rahul Sharma" class="w-16 h-16 rounded-full object-cover" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-lg">Rahul Sharma</h4>
+                            <p class="text-text-muted text-sm">Software Engineer, Mumbai</p>
+                            <div class="flex text-warning-500 text-sm">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "I was completely new to trading. Within 6 months of joining SMI, I made ₹2.5 lakhs profit. The mentorship program is incredible!"
+                    </p>
+                    <div class="bg-success-50 rounded-lg p-3 text-center">
+                        <div class="text-success-600 font-bold text-xl">+185% Portfolio Growth</div>
+                        <div class="text-success-500 text-sm">In 8 months</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Priya Patel" class="w-16 h-16 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_150.jpg'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-lg">Priya Patel</h4>
+                            <p class="text-text-muted text-sm">Marketing Manager, Bangalore</p>
+                            <div class="flex text-warning-500 text-sm">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The NISM preparation course was excellent. I cleared the exam in my first attempt and got placed at a leading brokerage firm."
+                    </p>
+                    <div class="bg-primary-50 rounded-lg p-3 text-center">
+                        <div class="text-primary font-bold text-xl">NISM Certified</div>
+                        <div class="text-primary-600 text-sm">Career transition successful</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Amit Kumar" class="w-16 h-16 rounded-full object-cover" onerror="this.src='https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-lg">Amit Kumar</h4>
+                            <p class="text-text-muted text-sm">Business Analyst, Delhi</p>
+                            <div class="flex text-warning-500 text-sm">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The portfolio management service helped me achieve consistent returns. My mentor's guidance saved me from major losses during market volatility."
+                    </p>
+                    <div class="bg-warning-50 rounded-lg p-3 text-center">
+                        <div class="text-warning-600 font-bold text-xl">22% Annual Returns</div>
+                        <div class="text-warning-500 text-sm">Consistent performance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators Section -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-text-primary mb-6">
+                    Why 5000+ Students Trust Us
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Industry recognition, expert credentials, and regulatory compliance
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary text-3xl">🏆</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-2">15+ Years</h3>
+                    <p class="text-text-secondary">Market Experience</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-success-500 text-3xl">✅</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-2">SEBI Registered</h3>
+                    <p class="text-text-secondary">Investment Advisors</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-warning-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-warning-500 text-3xl">📜</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-2">NISM Certified</h3>
+                    <p class="text-text-secondary">Expert Faculty</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-secondary-600 text-3xl">🤝</span>
+                    </div>
+                    <h3 class="font-poppins font-bold text-2xl mb-2">100% Guarantee</h3>
+                    <p class="text-text-secondary">Money Back Promise</p>
+                </div>
+            </div>
+
+            <!-- Industry Partnership Logos -->
+            <div class="bg-surface-50 rounded-2xl p-8">
+                <h3 class="font-poppins font-bold text-2xl text-center mb-8">Trusted by Leading Financial Institutions</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-60">
+                    <div class="text-center">
+                        <div class="bg-white rounded-lg p-4 shadow-card">
+                            <div class="font-poppins font-bold text-lg text-blue-600">HDFC Securities</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white rounded-lg p-4 shadow-card">
+                            <div class="font-poppins font-bold text-lg text-red-600">Kotak Securities</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white rounded-lg p-4 shadow-card">
+                            <div class="font-poppins font-bold text-lg text-orange-600">ICICI Direct</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white rounded-lg p-4 shadow-card">
+                            <div class="font-poppins font-bold text-lg text-green-600">Zerodha</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Conversion Section -->
+    <section class="section-padding bg-gradient-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <img src="https://images.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg" alt="Stock market success" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;" />
+        </div>
+        
+        <div class="container-max relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="font-poppins font-bold text-4xl md:text-6xl mb-6">
+                    Ready to Transform Your Financial Future?
+                </h2>
+                
+                <p class="text-xl mb-8 opacity-90">
+                    Join thousands of successful traders who started their journey with us
+                </p>
+
+                <!-- Multi-step Form Preview -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+                    <h3 class="font-poppins font-bold text-2xl mb-6">Get Started in 3 Simple Steps</h3>
+                    
+                    <div class="grid md:grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">1️⃣</span>
+                            </div>
+                            <h4 class="font-semibold text-lg mb-2">Book Consultation</h4>
+                            <p class="text-sm opacity-80">Free 30-minute session with expert</p>
+                        </div>
+                        
+                        <div>
+                            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">2️⃣</span>
+                            </div>
+                            <h4 class="font-semibold text-lg mb-2">Choose Your Path</h4>
+                            <p class="text-sm opacity-80">Personalized course recommendation</p>
+                        </div>
+                        
+                        <div>
+                            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">3️⃣</span>
+                            </div>
+                            <h4 class="font-semibold text-lg mb-2">Start Learning</h4>
+                            <p class="text-sm opacity-80">Begin your transformation journey</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Urgency Elements -->
+                <div class="bg-warning-500 text-white rounded-lg p-4 mb-8 inline-block">
+                    <div class="flex items-center space-x-2">
+                        <span class="animate-pulse">🔥</span>
+                        <span class="font-semibold">Limited Time: Next batch starts in 5 days!</span>
+                    </div>
+                </div>
+
+                <!-- Embedded Google Form -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-4 md:p-8 max-w-4xl mx-auto mt-8">
+                    <div class="aspect-w-16 aspect-h-9 w-full">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsNQ2jBq5RAPSNzOM9dRIqq_1rP-ebULV1HjZTrhlgOrDeEA/viewform?embedded=true" 
+                                class="w-full h-[1200px]" 
+                                frameborder="0" 
+                                marginheight="0" 
+                                marginwidth="0"
+                                style="min-height: 1200px;"
+                                onload="this.style.height = this.contentWindow.document.documentElement.scrollHeight + 'px';">
+                            Loading…
+                        </iframe>
+                    </div>
+                    <div class="mt-4 text-center text-sm text-white/80">
+                        Having trouble with the form? <a href="https://docs.google.com/forms/d/e/1FAIpQLScsNQ2jBq5RAPSNzOM9dRIqq_1rP-ebULV1HjZTrhlgOrDeEA/viewform" target="_blank" class="text-white font-medium hover:underline">Open in a new tab</a>
+                    </div>
+                </div>
+
+                <!-- Additional Contact Info -->
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-12">
+                    <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-poppins font-semibold text-xl mb-2 text-center">Email Us</h3>
+                        <p class="text-center text-white/80">stockriseinstitute@gmail.com</p>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-poppins font-semibold text-xl mb-2 text-center">Call Us</h3>
+                        <p class="text-center text-white/80">+91 78757 95409<br>+91 75070 23110</p>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-poppins font-semibold text-xl mb-2 text-center">Visit Us</h3>
+                        <p class="text-center text-white/80">Mumbai, India<br>By appointment only</p>
+                    </div>
+                </div>
+
+                <!-- Money-back Guarantee -->
+                <div class="mt-8 flex items-center justify-center space-x-2 opacity-90">
+                    <span class="text-2xl">🛡️</span>
+                    <span class="text-lg">30-Day Money-Back Guarantee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white section-padding">
+        <div class="container-max">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <img src="../assets/StockRise%20Logo.jpg" alt="Stock Rise Logo" class="h-12 w-auto" onerror="this.onerror=null; this.src='../assets/StockRise%20Logo.jpg';">
+                        <span class="font-poppins font-bold text-xl">Stock Rise</span>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        Empowering traders with knowledge and strategies for financial success in the stock market.
+                    </p>
+                    <!-- Social Media -->
+                    <div class="flex space-x-4 mb-6">
+                        <a href="https://www.instagram.com/finanzwithrahul?igsh=MWpzb21kaGZ2M3NuNQ==" target="_blank" class="text-gray-300 hover:text-primary transition-colors">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.415-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.415-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/share/1B34WYa4pQ/" target="_blank" class="text-gray-300 hover:text-primary transition-colors">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-poppins font-bold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-300 hover:text-primary transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-primary transition-colors">About Us</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="#testimonials" class="text-gray-300 hover:text-primary transition-colors">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-poppins font-bold text-lg mb-4">Contact Us</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 mt-0.5 mr-2 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <div>
+                                <a href="tel:+917875795409" class="hover:text-primary transition-colors">+91 78757 95409</a><br>
+                                <a href="tel:+917507023110" class="hover:text-primary transition-colors">+91 75070 23110</a>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 mt-0.5 mr-2 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <a href="mailto:stockriseinstitute@gmail.com" class="hover:text-primary transition-colors">stockriseinstitute@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 mt-0.5 mr-2 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Shop no 644, 6th floor,<br>Roongta Business Point, C wing,<br>Kamatwade Link Road,<br>Near Espaliar School,<br>Durganagar, Nashik,<br>Maharashtra 422009</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="md:col-span-1">
+                    <h3 class="font-poppins font-bold text-lg mb-4">Our Location</h3>
+                    <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.6826162638936!2d73.7541973!3d19.9798455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddebff6ada5fe5%3A0xc130c3347d719a54!2sStock%20Rise%20Institute%20(Share%20Market%20Training%20Center%20%7C%20Share%20Market%20Classes)!5e0!3m2!1sen!2sin!4v1758420899414!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 250px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Stock Rise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+                       
+
+    <!-- Sticky Bottom Bar (Mobile) -->
+    <div class="fixed bottom-0 left-0 right-0 bg-primary text-white p-4 md:hidden z-50" id="mobile-cta">
+        <div class="flex items-center justify-between">
+            <div>
+                <div class="font-semibold">Ready to Start?</div>
+                <div class="text-sm opacity-80">Free consultation available</div>
+            </div>
+            <button class="bg-white text-primary font-semibold px-6 py-2 rounded-lg">
+                Book Now
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript for Interactive Elements -->
+    <script>
+        // Investment Calculator
+        const investmentSlider = document.getElementById('investment-slider');
+        const investmentDisplay = document.getElementById('investment-display');
+        const potentialLoss = document.getElementById('potential-loss');
+
+        if (investmentSlider) {
+            investmentSlider.addEventListener('input', function() {
+                const value = parseInt(this.value);
+                const formatted = new Intl.NumberFormat('en-IN', {
+                    style: 'currency',
+                    currency: 'INR',
+                    maximumFractionDigits: 0
+                }).format(value);
+                
+                investmentDisplay.textContent = formatted;
+                
+                const loss = Math.floor(value * 0.95);
+                const lossFormatted = new Intl.NumberFormat('en-IN', {
+                    style: 'currency',
+                    currency: 'INR',
+                    maximumFractionDigits: 0
+                }).format(loss);
+                
+                potentialLoss.textContent = lossFormatted;
+            });
+        }
+
+        // Salary Calculator
+        const experienceSelect = document.getElementById('experience-select');
+        const locationSelect = document.getElementById('location-select');
+        const salaryDisplay = document.getElementById('salary-display');
+
+        function updateSalary() {
+            if (!experienceSelect || !locationSelect || !salaryDisplay) return;
+            
+            const experience = experienceSelect.value;
+            const location = locationSelect.value;
+            
+            const salaryRanges = {
+                fresher: { mumbai: '4.5 - 6.5', delhi: '4.0 - 6.0', bangalore: '4.2 - 6.2', pune: '3.8 - 5.8', hyderabad: '3.5 - 5.5' },
+                junior: { mumbai: '6.5 - 9.5', delhi: '6.0 - 9.0', bangalore: '6.2 - 9.2', pune: '5.8 - 8.8', hyderabad: '5.5 - 8.5' },
+                mid: { mumbai: '9.5 - 15', delhi: '9.0 - 14', bangalore: '9.2 - 14.5', pune: '8.8 - 13.5', hyderabad: '8.5 - 13' },
+                senior: { mumbai: '15 - 25', delhi: '14 - 23', bangalore: '14.5 - 24', pune: '13.5 - 22', hyderabad: '13 - 21' }
+            };
+            
+            const range = salaryRanges[experience][location];
+            salaryDisplay.textContent = `₹${range} LPA`;
+        }
+
+        if (experienceSelect && locationSelect) {
+            experienceSelect.addEventListener('change', updateSalary);
+            locationSelect.addEventListener('change', updateSalary);
+        }
+
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            tomorrow.setHours(0, 0, 0, 0);
+            const distance = tomorrow.getTime() - now;
+
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            const hoursEl = document.getElementById('hours');
+            const minutesEl = document.getElementById('minutes');
+            const secondsEl = document.getElementById('seconds');
+
+            if (hoursEl) hoursEl.textContent = hours.toString().padStart(2, '0');
+            if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
+            if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
+        }
+
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Animated Counters
+        function animateCounter(element, target) {
+            if (!element) return;
+            
+            let current = 0;
+            const increment = target / 100;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                
+                if (element.id === 'traders-count') {
+                    element.textContent = Math.floor(current) + '+';
+                } else if (element.id === 'pass-rate' || element.id === 'growth-rate') {
+                    element.textContent = Math.floor(current) + '%';
+                }
+            }, 20);
+        }
+
+        // Trigger counters when in view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+                    if (element.id === 'traders-count') animateCounter(element, 5000);
+                    if (element.id === 'pass-rate') animateCounter(element, 94);
+                    if (element.id === 'growth-rate') animateCounter(element, 127);
+                    observer.unobserve(element);
+                }
+            });
+        });
+
+        const tradersCount = document.getElementById('traders-count');
+        const passRate = document.getElementById('pass-rate');
+        const growthRate = document.getElementById('growth-rate');
+
+        if (tradersCount) observer.observe(tradersCount);
+        if (passRate) observer.observe(passRate);
+        if (growthRate) observer.observe(growthRate);
+
+        // Success Notifications
+        const notifications = [
+            { name: 'Rahul from Mumbai', achievement: 'Made ₹45,000 profit this month' },
+            { name: 'Priya from Bangalore', achievement: 'Cleared NISM exam with 92%' },
+            { name: 'Amit from Delhi', achievement: 'Got placed at HDFC Securities' },
+            { name: 'Sneha from Pune', achievement: 'Portfolio grew by 156%' }
+        ];
+
+        function showRandomNotification() {
+            const container = document.getElementById('success-notifications');
+            if (!container) return;
+            
+            const notification = notifications[Math.floor(Math.random() * notifications.length)];
+            
+            const notificationEl = document.createElement('div');
+            notificationEl.className = 'bg-success-50 border border-success-200 rounded-lg p-3 shadow-card animate-pulse';
+            notificationEl.innerHTML = `
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-success-500 rounded-full flex items-center justify-center">
+                        <span class="text-white text-xs">✓</span>
+                    </div>
+                    <div class="text-sm">
+                        <div class="font-semibold text-success-600">${notification.name}</div>
+                        <div class="text-success-500">${notification.achievement}</div>
+                    </div>
+                </div>
+            `;
+            
+            container.innerHTML = '';
+            container.appendChild(notificationEl);
+            
+            setTimeout(() => {
+                if (notificationEl.parentNode) {
+                    notificationEl.remove();
+                }
+            }, 5000);
+        }
+
+        // Show random notification every 8 seconds
+        setInterval(showRandomNotification, 8000);
+        showRandomNotification();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                // Add mobile menu functionality here
+                console.log('Mobile menu clicked');
+            });
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
