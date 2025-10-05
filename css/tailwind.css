@@ -10,16 +10,16 @@
   --color-primary-50: #f0f4ff; /* jordy-blue-50 */
   --color-primary-100: #e0ebff; /* jordy-blue-100 */
   --color-primary-200: #c7d8ff; /* jordy-blue-200 */
-  --color-primary-300: #aeceff; /* jordy-blue-300 */
-  --color-primary-400: #92b8ff; /* jordy-blue-400 */
-  --color-primary-500: #7ba3ff; /* jordy-blue-500 */
+  --color-primary-300: #267dff; /* jordy-blue-300 */
+  --color-primary-400: #0157f7; /* jordy-blue-400 */
+  --color-primary-500: #002989; /* jordy-blue-500 */
   --color-primary-600: #6b93ff; /* jordy-blue-600 */
   --color-primary-700: #5a82ff; /* jordy-blue-700 */
   --color-primary-800: #4a72ff; /* jordy-blue-800 */
   --color-primary-900: #3a62ff; /* jordy-blue-900 */
 
   /* Secondary Colors */
-  --color-secondary: #aeceff; /* light-jordy-blue */
+  --color-secondary: #0063f7; /* light-jordy-blue */
   --color-secondary-50: #f5f8ff; /* light-jordy-blue-50 */
   --color-secondary-100: #ebf2ff; /* light-jordy-blue-100 */
   --color-secondary-200: #d6e5ff; /* light-jordy-blue-200 */

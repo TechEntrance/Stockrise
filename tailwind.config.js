@@ -8,19 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Primary Colors - Jordy Blue
+        // Primary Colors - Darker Blue
         primary: {
-          DEFAULT: "#92b8ff", // jordy-blue
-          50: "#f0f4ff", // jordy-blue-50
-          100: "#e0ebff", // jordy-blue-100
-          200: "#c7d8ff", // jordy-blue-200
-          300: "#aeceff", // jordy-blue-300
-          400: "#92b8ff", // jordy-blue-400
-          500: "#7ba3ff", // jordy-blue-500
-          600: "#6b93ff", // jordy-blue-600
-          700: "#5a82ff", // jordy-blue-700
-          800: "#4a72ff", // jordy-blue-800
-          900: "#3a62ff", // jordy-blue-900
+          DEFAULT: "#2563eb", // darker blue-600
+          50: "#eff6ff", // blue-50
+          100: "#dbeafe", // blue-100
+          200: "#bfdbfe", // blue-200
+          300: "#93c5fd", // blue-300
+          400: "#60a5fa", // blue-400
+          500: "#3b82f6", // blue-500
+          600: "#2563eb", // blue-600
+          700: "#1d4ed8", // blue-700
+          800: "#1e40af", // blue-800
+          900: "#1e3a8a", // blue-900
         },
         // Secondary Colors - Light Jordy Blue
         secondary: {
